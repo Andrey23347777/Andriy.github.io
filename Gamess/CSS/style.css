@@ -1,0 +1,84 @@
+@import url('./reset.css');
+
+body{
+    background-color: #48d1cc
+}
+
+img{
+width: 300px;
+height: 200px;
+border-radius: 30px;
+border: 1px solid black;
+margin: 0px auto;
+transition: .3S ease;
+margin-right: 15px;
+}
+
+img:hover{
+    /* width: 240px;
+    height: 200px;
+   align-items: center;
+   border-radius: 10%;
+   border: 5px solid rgb(129, 129, 129); */
+   transform: scale(1.1);
+
+}
+
+.block-info{
+    max-width: 85%;
+    
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+}
+
+.text{
+    max-width: 75%;
+   
+    padding: 10px;
+    margin: 2px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40px;
+}
+
+.container{
+max-width: 85%;
+
+padding: 10px;
+margin: 0px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 190px;
+
+}
+
+.logo{
+    border-radius: 5%;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+a.one:link {text-decoration: none; color:red;}
+a.one:visited {text-decoration: none; color:red;}
+a.one:hover {text-decoration: underline; color:red ;}
+a.one:active {text-decoration: underline; color:red;}
+
+a.two:link {text-decoration: none; color:yellow;}
+a.two:visited {text-decoration: none; color:yellow;}
+a.two:hover {text-decoration: underline; color:yellow;}
+a.two:active {text-decoration: underline; color:yellow;}
+
+a.three:link {text-decoration: none; color:green;}
+a.three:visited {text-decoration: none; color:green;}
+a.three:hover {text-decoration: underline; color:green}
+a.three:active {text-decoration: underline; color:green;}
